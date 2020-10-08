@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesLibrary
 {
-    class Vehicle
+    public class Vehicle
     {
         //Create fields
         private string _make;
@@ -54,7 +54,11 @@ namespace ClassesLibrary
         //Create methods
         public override string ToString()
         {
-            return string.Format("");
+            return string.Format("Make: {0}\n" +
+                "Model: {1}\n" +
+                "Year: {2:n1}\n" +
+                "Weight: {3:n2}", Make, Model, Year, Weight);
         }
-    }
-}
+
+    }//end class
+}//end namespace

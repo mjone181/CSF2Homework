@@ -19,6 +19,18 @@ namespace TesterProgram
 
             //Display Student class to the screen.
             Console.WriteLine(s1);
+
+            Console.WriteLine();
+
+            //making a new Vehicle class for testing purposes and filling its variables.
+            Vehicle v1 = new Vehicle();
+            v1.Make = "Toyota";
+            v1.Model = "Tacoma";
+            v1.Year = 2008;
+            v1.Weight = 3980;
+
+            //Display Vehicle class to the screen.
+            Console.WriteLine(v1);
         }
     }
 }
