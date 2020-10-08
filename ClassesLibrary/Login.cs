@@ -30,7 +30,7 @@ namespace ClassesLibrary
         {
             Username = username;
             Password = password;
-        }//end FQCTR
+        }//end FQCTOR
 
         public Login() { }//end Login
 
