@@ -31,6 +31,18 @@ namespace TesterProgram
 
             //Display Vehicle class to the screen.
             Console.WriteLine(v1);
-        }
-    }
-}
+
+            Console.WriteLine();
+
+            //making a new Logn class for testing purposes and filling its variables.
+            Login l1 = new Login();
+            l1.Username = "FonzieWonzie";
+            l1.Password = "Thisismypassword";
+
+            //Display Login class to the screen.
+            Console.WriteLine(l1);
+            
+        }//end Main()
+
+    }//end class
+}//end namespace

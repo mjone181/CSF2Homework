@@ -58,7 +58,7 @@ namespace ClassesLibrary
                 "Model: {1}\n" +
                 "Year: {2:n1}\n" +
                 "Weight: {3:n2}", Make, Model, Year, Weight);
-        }
+        }//end ToString()
 
     }//end class
 }//end namespace
