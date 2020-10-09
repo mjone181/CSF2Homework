@@ -75,6 +75,20 @@ namespace TesterProgram
             Console.WriteLine(cr1);
             Console.WriteLine();
 
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
+            //making a new Book class for testing purposes and filling its variables.
+            Console.WriteLine("Book Class testing: ");
+            Book b1 = new Book("How to be POGGERS", "Kappa", 1337);
+
+            //Display Book to the screen.
+            Console.WriteLine(b1);
+
+            Console.WriteLine();
+
+
         }//end Main()
 
     }//end class
