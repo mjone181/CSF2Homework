@@ -11,6 +11,7 @@ namespace TesterProgram
         static void Main(string[] args)
         {
             //making a new Student class for testing purposes and filling its variables.
+            Console.WriteLine("Student Class testing:");
             Student s1 = new Student();
             s1.FirstName = "John";
             s1.LastName = "Brown";
@@ -23,6 +24,7 @@ namespace TesterProgram
             Console.WriteLine();
 
             //making a new Vehicle class for testing purposes and filling its variables.
+            Console.WriteLine("Vehicle Class testing:");
             Vehicle v1 = new Vehicle();
             v1.Make = "Toyota";
             v1.Model = "Tacoma";
@@ -35,6 +37,7 @@ namespace TesterProgram
             Console.WriteLine();
 
             //making a new Login class for testing purposes and filling its variables.
+            Console.WriteLine("Login Class testing");
             Login l1 = new Login();
             l1.Username = "FonzieWonzie";
             l1.Password = "Thisismypassword";
@@ -45,6 +48,7 @@ namespace TesterProgram
             Console.WriteLine();
 
             //making a new ContactInfo class for testing purposes and filling its variables.
+            Console.WriteLine("ContactInfo Class testing:");
             ContactInfo c1 = new ContactInfo("12680 BOIIIII Avenue", "Domino City", "Kansas", "66666", "555-1343", "bigboi@gmail.com");            
 
             //Display ContactInfo class to the screen.
@@ -52,8 +56,15 @@ namespace TesterProgram
 
             Console.WriteLine();
 
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
             //making a new Customer class for testing purposes and filling its variables.
-            Customer cu1 = new Customer("12345F", "Joe", "Brown", c1);            
+            Console.WriteLine("Customer Class testing: ");
+            Customer cu1 = new Customer("12345F", "Joe", "Brown", c1);        
+            
+            //Display Customer class to the screen.
             Console.WriteLine(cu1);
 
         }//end Main()
