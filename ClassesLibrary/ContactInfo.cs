@@ -69,7 +69,7 @@ namespace ClassesLibrary
         //methods
         public override string ToString()
         {
-            return string.Format($"Street Adress: {StreetAddress}\nCity: {City}\nState: {State}\nZip: {Zip}\nPhone: {Phone}");
+            return string.Format($"\nStreet Address: {StreetAddress}\nCity: {City}\nState: {State}\nZip: {Zip}\nPhone: {Phone}");
         }//end ToString()
 
     }//end class

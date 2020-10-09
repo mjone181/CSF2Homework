@@ -49,6 +49,13 @@ namespace TesterProgram
 
             //Display ContactInfo class to the screen.
             Console.WriteLine(c1);
+
+            Console.WriteLine();
+
+            //making a new Customer class for testing purposes and filling its variables.
+            Customer cu1 = new Customer("12345F", "Joe", "Brown", c1);            
+            Console.WriteLine(cu1);
+
         }//end Main()
 
     }//end class
