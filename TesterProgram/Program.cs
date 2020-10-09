@@ -37,7 +37,7 @@ namespace TesterProgram
             Console.WriteLine();
 
             //making a new Login class for testing purposes and filling its variables.
-            Console.WriteLine("Login Class testing");
+            Console.WriteLine("Login Class testing:");
             Login l1 = new Login();
             l1.Username = "FonzieWonzie";
             l1.Password = "Thisismypassword";
@@ -61,11 +61,19 @@ namespace TesterProgram
             Console.Clear();
 
             //making a new Customer class for testing purposes and filling its variables.
-            Console.WriteLine("Customer Class testing: ");
+            Console.WriteLine("Customer Class testing:");
             Customer cu1 = new Customer("12345F", "Joe", "Brown", c1);        
             
             //Display Customer class to the screen.
             Console.WriteLine(cu1);
+
+            //making a new CreditCardAccount class for testing purposes and filling its variables.
+            Console.WriteLine("CreditCardAccount Class testing: ");
+            CreditCardAccount cr1 = new CreditCardAccount(123456789, cu1, 1337000, false, 1.00m);
+
+            //Display CreditCardAccount to the screen.
+            Console.WriteLine(cr1);
+            Console.WriteLine();
 
         }//end Main()
 
