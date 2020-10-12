@@ -89,10 +89,22 @@ namespace TesterProgram
             Console.WriteLine();
 
             //making a new Library class for testing purposes and filling its variables.
+            Console.WriteLine("Library Class Testing:");
             List<Book> books = new List<Book>() {b1};              
             Library li1 = new Library( books,"Generic Library", "12898 Generic St.", "Kansas City", "Kansas", "66210");
+
+            //Display Library to the screen.
             Console.WriteLine(li1);
 
+            Console.WriteLine();
+
+            //making a new Song class for testing purposes and filling its variables.
+            Console.WriteLine("Song Class Testing:");
+            Song so1 = new Song("Jon Bovi", "Prayer on a Livin'", 251);
+
+            //Display Song to the screen.
+            Console.WriteLine(so1);
+            Console.WriteLine();
         }//end Main()
 
     }//end class
