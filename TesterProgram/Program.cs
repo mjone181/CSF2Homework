@@ -113,6 +113,15 @@ namespace TesterProgram
             Console.ReadKey();
             Console.Clear();
 
+            //Make a new MotorHome class for testing purposes and filling its variables.
+            Console.WriteLine("MotorHome Class Testing: ");
+            MotorHome m1 = new MotorHome("Winnebago", "Vista", 2020, 16000.00f, 3);
+
+            //Display MotorHome to the screen.
+            Console.WriteLine(m1);
+            Console.WriteLine();
+
+
         }//end Main()
 
     }//end class
