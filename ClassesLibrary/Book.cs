@@ -46,7 +46,10 @@ namespace ClassesLibrary
         public override string ToString()
         {
             return string.Format($"Title: {Title}\nAuthor: {Author}\nNumber of Pages: {NumberOfPages:n0}");
+            return Title;
         }//end ToString()
+
+        
 
     }//end class
 
