@@ -20,7 +20,6 @@ namespace TesterProgram
 
             //Display Student class to the screen.
             Console.WriteLine(s1);
-
             Console.WriteLine();
 
             //making a new Vehicle class for testing purposes and filling its variables.
@@ -33,7 +32,6 @@ namespace TesterProgram
 
             //Display Vehicle class to the screen.
             Console.WriteLine(v1);
-
             Console.WriteLine();
 
             //making a new Login class for testing purposes and filling its variables.
@@ -44,7 +42,6 @@ namespace TesterProgram
 
             //Display Login class to the screen.
             Console.WriteLine(l1);
-
             Console.WriteLine();
 
             //making a new ContactInfo class for testing purposes and filling its variables.
@@ -53,7 +50,6 @@ namespace TesterProgram
 
             //Display ContactInfo class to the screen.
             Console.WriteLine(c1);
-
             Console.WriteLine();
 
             Console.WriteLine("Press any key to continue...");
@@ -85,7 +81,6 @@ namespace TesterProgram
 
             //Display Book to the screen.
             Console.WriteLine(b1);
-
             Console.WriteLine();
 
             //making a new Library class for testing purposes and filling its variables.
@@ -95,7 +90,6 @@ namespace TesterProgram
 
             //Display Library to the screen.
             Console.WriteLine(li1);
-
             Console.WriteLine();
 
             //making a new Song class for testing purposes and filling its variables.
@@ -105,6 +99,20 @@ namespace TesterProgram
             //Display Song to the screen.
             Console.WriteLine(so1);
             Console.WriteLine();
+
+            //Making a new Artist class for testing purposes and filling its variables.
+            Console.WriteLine("Artist Class Testing: ");
+            Song[] tracks = { so1 };
+            Artist a1 = new Artist(tracks, "Jon Bovi", "Classic Rock");
+
+            //Display Artist to the screen.
+            Console.WriteLine(a1);
+            Console.WriteLine();
+
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
         }//end Main()
 
     }//end class

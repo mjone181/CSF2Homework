@@ -44,7 +44,7 @@ namespace ClassesLibrary
         //methods
         public override string ToString()
         {
-            return string.Format($"Artrst: {Artist}\nTitle: {Title}\nLength: {LengthInSeconds} seconds.");
+            return string.Format($"Artist: {Artist}\nTitle: {Title}\nLength: {LengthInSeconds} seconds.");
         }//end ToString()
 
     }//end class
