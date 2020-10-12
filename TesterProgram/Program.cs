@@ -121,7 +121,12 @@ namespace TesterProgram
             Console.WriteLine(m1);
             Console.WriteLine();
 
+            //Make a new Truck class for testing purposes and filling its variables.
+            Console.WriteLine("Truck Class Testing: ");
+            Truck t1 = new Truck("Toyota", "Tacoma", 2010, 3980, 1120);
 
+            //Display Truck to the sceen.
+            Console.WriteLine(t1);
         }//end Main()
 
     }//end class
